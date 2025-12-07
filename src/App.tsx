@@ -97,7 +97,7 @@ const LotterySpinner = () => {
 
   return (
     <div
-      className="min-h-screen flex items-center justify-center p-4 overflow-hidden"
+      className="min-h-screen flex items-center justify-center px-4 pb-4 overflow-hidden"
       style={{
         backgroundImage: "url(/bg-1.jpg)",
         backgroundSize: "220%",
