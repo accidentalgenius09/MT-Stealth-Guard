@@ -173,10 +173,7 @@ const LotterySpinner = () => {
                           "0 10px 40px rgba(168, 85, 247, 0.5), inset 0 2px 10px rgba(255, 255, 255, 0.1)",
                       }}
                     >
-                      {/* Inner Glow Effect */}
                       <div className="absolute inset-0 bg-gradient-to-t from-transparent to-white/10 rounded-sm" />
-
-                      {/* Number Display */}
                       <span
                         className={`text-6xl font-black transition-all duration-200 ${
                           isStopped || showResult
@@ -199,8 +196,6 @@ const LotterySpinner = () => {
                 );
               })}
             </div>
-
-            {/* Spin Button */}
             <div className="flex justify-center">
               <div className="relative">
                 <div className="relative">
